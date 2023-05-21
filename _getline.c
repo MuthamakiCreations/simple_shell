@@ -2,7 +2,7 @@
 
 /**
  * get_line - the path into which user's commands are stored
- * @str:the string variable i.e the buffer 
+ * @str: the string variable i.e the buffer
  * Return: the no. of characters
  */
 size_t get_line(char **str)
@@ -30,7 +30,7 @@ size_t get_line(char **str)
 			j++;
 			*str = malloc(sizeof(char) * j);
 			*str = _strcpy(*str, buff);
-			size = j;
+			s = j;
 			u = 1;
 		}
 		else
