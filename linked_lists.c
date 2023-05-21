@@ -30,7 +30,7 @@ size_t print_list(list_t *h)
 		}
 		c_list = c_list->next;
 		count++;
-	}       
+	}
 	return (count);
 }
 
@@ -38,7 +38,7 @@ size_t print_list(list_t *h)
  * add_end_node - adds node at the end of linked list
  * @str: adds new data to new node
  * @head: pointer to head of linked list
- * Return: 1 
+ * Return: 1
  */
 list_t *add_end_node(list_t **head, char *str)
 {

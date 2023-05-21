@@ -77,7 +77,7 @@ char **_str_tok(char *str, char *delm)
 	while (str[se] != '\0')	/* find string ending index */
 		se++;
 	while (si < se)
-	{	
+	{
 		if (str[si] != d_ch)
 		{
 			len = t_strlen(str, si, d_ch);

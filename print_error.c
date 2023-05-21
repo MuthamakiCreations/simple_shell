@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * not_found - write error 
+ * not_found - write error
  * @str: user typed command
  * @c_n: user typed command
  * @env: bring environmental variables linked list to write shell name

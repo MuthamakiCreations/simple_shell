@@ -3,7 +3,7 @@
 /**
  * _which - Gets command by appending it to a matching directory
  * @env: environment variable
- * @str: first command typed by the user into shell 
+ * @str: first command typed by the user into shell
  * Return: 1 on success
  */
 char *_which(char *str, list_t *env)
@@ -33,5 +33,5 @@ char *_which(char *str, list_t *env)
 		i++;
 	}
 	free_double_ptr(toks);
-	return (str); 
+	return (str);
 }
