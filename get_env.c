@@ -2,6 +2,7 @@
 
 /**
  * c_strdup - duplicates custom string and excludes the first bites
+ * @str: string variable
  * @cs: number of bites excluded
  * Return: 1 on success
  */

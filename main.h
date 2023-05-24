@@ -30,6 +30,7 @@ char **_str_tok(char *str, char *delm);
 char **c_str_tok(char *str, char *delm);
 char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
+char *c_strdup(char *str, int cs);
 char *_strdup(char *str);
 char *_which(char *str, list_t *env);
 char *get_env(char *str, list_t *env);

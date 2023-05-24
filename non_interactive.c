@@ -12,6 +12,10 @@ char *c_ignore(char *str)
 	return (str);
 }
 
+/**
+ * non_interactive - deals with pipelines
+ * @env: the env variable
+ */
 void non_interactive(list_t *env)
 {
 	size_t i = 0, n = 0;
